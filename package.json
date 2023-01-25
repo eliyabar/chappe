@@ -1,7 +1,7 @@
 {
   "name": "chappe",
   "description": "Developer Docs builder. Write guides in Markdown and references in API Blueprint. Comes with a built-in search engine.",
-  "version": "1.8.0",
+  "version": "1.9.3",
   "homepage": "https://github.com/crisp-oss/chappe",
   "license": "MIT",
   "bin": {
@@ -56,6 +56,7 @@
     "gulp-sass-variables": "1.2.x",
     "gulp-sitemap": "8.0.x",
     "gulp-inline-image": "1.0.x",
+    "gulp-ogimage": "1.0.x",
     "gulp-concat": "2.6.x",
     "gulp-cssmin": "0.2.x",
     "gulp-uglify": "3.0.x",
@@ -68,6 +69,7 @@
     "gulp-jscs": "4.1.x",
     "gulp-sizereport": "1.2.x",
     "gulp-notify": "4.0.x",
+    "gulp-noop": "1.0.x",
     "jshint": "2.13.x",
     "marked": "4.0.x",
     "markdown-toc": "1.2.x",

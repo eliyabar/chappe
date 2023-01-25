@@ -1,5 +1,35 @@
 # Changelog
 
+## 1.9.3 (2023-01-06)
+
+### New Features
+
+* Automated the package release process via GitHub Actions (ie. `npm publish`).
+
+## 1.9.2 (2022-12-02)
+
+### Changes
+
+* Improved detection of page titles when generating Open Graph previews.
+
+## 1.9.1 (2022-12-02)
+
+### New Features
+
+* Added support for the `twitter:image:src` and `twitter:card` tags.
+
+## 1.9.0 (2022-12-02)
+
+### ⚠️ Breaking Changes
+
+* The Open Graph images are now auto-generated from the page content, using the provided `opengraph` configuration property; since this option already existed before, you will need to make sure to update your Open Graph image so that it can contain inserted text in the foreground (ie. you need to clear any text from your existing Open Graph image).
+
+## 1.8.1 (2022-11-03)
+
+### Changes
+
+* Added a background hover effect on table rows.
+
 ## 1.8.0 (2022-06-24)
 
 ### New Features
