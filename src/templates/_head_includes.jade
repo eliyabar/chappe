@@ -14,8 +14,7 @@ if SITE.tokens.crisp_website_id
 
 each script_url in SITE.includes.scripts.urls
   script(
-    src="#{script_url}",
-    defer
+    src="#{script_url}"
   )
 
 each script_inline in SITE.includes.scripts.inline
